@@ -1,4 +1,6 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.10.0)
+set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
+
 project(aesd-assignments)
 # A list of all automated test source files
 # At minimum it should include the files in the test/assignmentX directory
@@ -13,4 +15,7 @@ set(AUTOTEST_SOURCES
 set(TESTED_SOURCE
     ../examples/autotest-validate/autotest-validate.c
 )
+
+include_directories(${CMAKE_SOURCE_DIR}/fixes)
+
 add_subdirectory(assignment-autotest)

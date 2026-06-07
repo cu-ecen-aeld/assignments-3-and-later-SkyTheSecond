@@ -6,3 +6,6 @@ crosstool-ng
 aesd-build
 .vscode/
 test.sh.log
+.clangd
+.clang
+compile_commands.json
