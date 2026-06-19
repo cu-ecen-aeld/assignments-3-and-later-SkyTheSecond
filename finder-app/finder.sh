@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/sh
 
 if [ $# -ne 2 ]; then
     echo "Error: Two arguments required"
