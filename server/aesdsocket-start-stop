@@ -9,7 +9,7 @@
 ### END INIT INFO
 
 DAEMON=/usr/bin/aesdsocket
-DAEMON_ARGS="-d"
+DAEMON_ARGS=""
 NAME=aesdsocket
 PIDFILE=/var/run/$NAME.pid
 
